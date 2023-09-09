@@ -1,0 +1,6 @@
+anonymous,123,customer,,,{;;;;}
+user1,password1,customer,Charles,40691,{;;;;}
+12,12,owner,Ruth,55134,{;;;;}
+345,345678,owner,Kasey,60146,{;;;;}
+seller,123,seller,,,{;;;;}
+cashier,123,cashier,,,{;;;;}

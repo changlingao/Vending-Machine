@@ -1,0 +1,7 @@
+anonymous,123,customer,,,{Thins;Pringles;Snickers;Mineral Water;Juice}
+user1,password1,customer,Charles,40691,{;;;;}
+12,12,owner,Ruth,55134,{Mineral Water;Sprite;Juice;;}
+345,345,customer,Kasey,60146,{Sprite;;;;}
+seller,123,seller,,,{Juice;;;;}
+cashier,123,cashier,,,{Mars;Mineral Water;;;}
+1,,cashier,,,{;;;;}

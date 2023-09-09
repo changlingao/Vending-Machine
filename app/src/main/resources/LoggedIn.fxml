@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FrontEnd.LoggedInController">
+    <children>
+        <Button layoutX="28.0" layoutY="69.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="68.0" text="Drinks" />
+        <Button layoutX="96.0" layoutY="69.0" mnemonicParsing="false" text="Chocolates" />
+        <Button layoutX="176.0" layoutY="69.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="68.0" text="Chips" />
+        <Button layoutX="244.0" layoutY="69.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="80.0" text="Candies" />
+        <Label layoutX="30.0" layoutY="35.0" text="Menu" />
+        <Button fx:id="checkout" layoutX="381.0" layoutY="201.0" mnemonicParsing="false" onAction="#checkOut" text="Checkout" />
+        <Button layoutX="389.0" layoutY="282.0" mnemonicParsing="false" text="Cancel" />
+        <TextField layoutX="369.0" layoutY="82.0" prefHeight="26.0" prefWidth="96.0" promptText="Product Code" />
+        <TextField layoutX="369.0" layoutY="117.0" prefHeight="26.0" prefWidth="96.0" promptText="Quantity" />
+        <Button layoutX="396.0" layoutY="155.0" mnemonicParsing="false" text="Add" />
+        <Label layoutX="365.0" layoutY="36.0" text="Timer" />
+        <Label layoutX="515.0" layoutY="35.0" text="History" />
+        <Line endX="-145.5" endY="-138.0" layoutX="163.0" layoutY="159.0" startX="-145.5" startY="220.5" />
+        <Line endX="215.5" layoutX="119.0" layoutY="21.0" startX="-100.0" />
+        <Line endX="71.0" endY="-150.5" layoutX="264.0" layoutY="172.0" startX="71.0" startY="207.5" />
+        <Line endX="216.5" layoutX="118.0" layoutY="379.0" startX="-100.0" />
+        <Line endX="31.5" layoutX="451.0" layoutY="21.0" startX="-100.0" />
+        <Line endX="71.0" endY="-150.5" layoutX="280.0" layoutY="172.0" startX="71.0" startY="207.5" />
+        <Line endX="71.0" endY="-150.5" layoutX="412.0" layoutY="172.0" startX="71.0" startY="207.5" />
+        <Line endX="31.5" layoutX="451.0" layoutY="380.0" startX="-100.0" />
+      <Line endX="-6.5" layoutX="588.0" layoutY="21.0" startX="-90.5" />
+      <Line endX="71.0" endY="-150.5" layoutX="426.0" layoutY="172.0" startX="71.0" startY="207.5" />
+      <Line endX="71.0" endY="-150.5" layoutX="511.0" layoutY="172.0" startX="71.0" startY="207.5" />
+      <Line endX="-6.5" layoutX="588.0" layoutY="379.0" startX="-90.5" />
+    </children>
+</AnchorPane>

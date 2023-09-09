@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FrontEnd.ShoppingPageController">
+    <children>
+        <Label layoutX="30.0" layoutY="35.0" text="Menu" />
+        <Button fx:id="checkout" layoutX="405.0" layoutY="209.0" mnemonicParsing="false" onAction="#checkOut" prefHeight="26.0" prefWidth="75.0" text="Checkout" />
+        <Button fx:id="cancel" layoutX="415.0" layoutY="84.0" mnemonicParsing="false" onAction="#cancel" text="Cancel" />
+        <TextField fx:id="code" layoutX="368.0" layoutY="136.0" prefHeight="26.0" prefWidth="96.0" promptText="Product Code" />
+        <TextField fx:id="quantity" layoutX="368.0" layoutY="171.0" prefHeight="26.0" prefWidth="96.0" promptText="Quantity" />
+        <Button fx:id="add" layoutX="361.0" layoutY="209.0" mnemonicParsing="false" onAction="#addToShoppingCart" text="Add" />
+        <Label fx:id="timer" layoutX="365.0" layoutY="36.0" text="Timer" />
+        <Line endX="-145.5" endY="-138.0" layoutX="163.0" layoutY="159.0" startX="-145.5" startY="220.5" />
+        <Line endX="215.5" layoutX="119.0" layoutY="21.0" startX="-100.0" />
+        <Line endX="71.0" endY="-150.5" layoutX="264.0" layoutY="172.0" startX="71.0" startY="207.5" />
+        <Line endX="216.5" layoutX="118.0" layoutY="379.0" startX="-100.0" />
+        <Line endX="31.5" layoutX="451.0" layoutY="21.0" startX="-100.0" />
+        <Line endX="71.0" endY="-150.5" layoutX="280.0" layoutY="172.0" startX="71.0" startY="207.5" />
+        <Line endX="71.0" endY="-150.5" layoutX="412.0" layoutY="172.0" startX="71.0" startY="207.5" />
+        <Line endX="31.5" layoutX="451.0" layoutY="380.0" startX="-100.0" />
+        <Label layoutX="518.0" layoutY="35.0" text="History" />
+        <Line endX="-6.5" layoutX="591.0" layoutY="21.0" startX="-90.5" />
+        <Line endX="71.0" endY="-150.5" layoutX="429.0" layoutY="172.0" startX="71.0" startY="207.5" />
+        <Line endX="71.0" endY="-150.5" layoutX="514.0" layoutY="172.0" startX="71.0" startY="207.5" />
+        <Line endX="-6.5" layoutX="591.0" layoutY="379.0" startX="-90.5" />
+      <ListView fx:id="drinks" layoutX="38.0" layoutY="96.0" prefHeight="200.0" prefWidth="68.0" />
+      <ListView fx:id="chocolates" layoutX="106.0" layoutY="96.0" prefHeight="200.0" prefWidth="68.0" />
+      <Label layoutX="52.0" layoutY="80.0" prefHeight="17.0" prefWidth="39.0" text="Drinks" />
+      <Label layoutX="109.0" layoutY="80.0" text="Chocolates" />
+      <Label layoutX="199.0" layoutY="80.0" text="Chips" />
+      <Label layoutX="253.0" layoutY="80.0" text="Candies" />
+      <ListView fx:id="chips" layoutX="174.0" layoutY="96.0" prefHeight="200.0" prefWidth="68.0" />
+      <ListView fx:id="candies" layoutX="242.0" layoutY="96.0" prefHeight="200.0" prefWidth="68.0" />
+      <Button fx:id="begin" layoutX="357.0" layoutY="84.0" mnemonicParsing="false" onAction="#begin" text="Begin" />
+    </children>
+</AnchorPane>

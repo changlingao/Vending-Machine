@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane prefHeight="424.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FrontEnd.CashierPageController">
+   <children>
+      <Button fx:id="availableButton" layoutX="35.0" layoutY="31.0" mnemonicParsing="false" onAction="#availableShow" text="current available change" />
+      <Button fx:id="modify" layoutX="35.0" layoutY="73.0" mnemonicParsing="false" onAction="#modifyShow" text="fill / modify money" />
+      <Button fx:id="summaryButton" layoutX="35.0" layoutY="112.0" mnemonicParsing="false" onAction="#summaryShow" text="summary of transactions " />
+      <ListView fx:id="availableChange" layoutX="249.0" layoutY="31.0" prefHeight="295.0" prefWidth="166.0" />
+      <ListView fx:id="summaryTransactions" layoutX="227.0" layoutY="44.0" prefHeight="376.0" prefWidth="461.0" />
+      <Button layoutX="35.0" layoutY="166.0" mnemonicParsing="false" onAction="#back" text="back" />
+      <Pane fx:id="modifyMoney" layoutX="300.0" layoutY="66.0" prefHeight="190.0" prefWidth="305.0">
+         <children>
+            <Label layoutX="38.0" layoutY="35.0" text="value" />
+            <Label layoutX="38.0" layoutY="82.0" text="quantity" />
+            <ChoiceBox fx:id="cb" layoutX="97.0" layoutY="31.0" prefHeight="26.0" prefWidth="77.0" />
+            <TextField fx:id="quantity" layoutX="97.0" layoutY="77.0" prefHeight="26.0" prefWidth="77.0" />
+            <Button layoutX="38.0" layoutY="126.0" mnemonicParsing="false" onAction="#submit" text="submit" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

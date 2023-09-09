@@ -1,0 +1,19 @@
+products_inventory.txt:
+code,name,category,quantity_remain,quantity_sold,dollars,cents
+1,Mineral Water,Drinks,7,0,2,50
+
+user.txt
+user_name,password,role,card_name,card_number,bought_history_5
+345,345,customer,Kasey,60146,{;;;;}
+
+transactions_successful.txt
+datetime,item_sold,money_paid,returned_change,payment_method.
+2022-10-23T13:58:59.895478,Sprite,3.5,0,card
+
+transactions_cancelled.txt
+datetime,user_name,reason (e.g. "timeout", "user cancelled", "change not available", etc.).
+2022-10-23T15:58:20.248954,345,user cancelled
+
+cash.txt
+100$,50$,20$,10$,2$,1$,50c,20c,10c,5c,
+5,4,7,5,6,2,4,6,5,

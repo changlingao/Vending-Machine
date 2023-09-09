@@ -1,0 +1,4 @@
+1,Mineral Water,Drinks,5,1,2,50
+6,Mars,Chocolates,7,0,3,0
+10,Smiths,Chips,7,0,2,50
+14,Mentos,Candies,7,0,2,0

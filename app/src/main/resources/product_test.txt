@@ -1,0 +1,17 @@
+1,Mineral Water,Drinks,7,1,2,50
+2,Sprite,Drinks,4,1,3,5
+3,Coca cola,Drinks,7,0,2,75
+4,Pepsi,Drinks,7,0,20,3
+5,Juice,Drinks,15,0,3,15
+6,Mars,Chocolates,5,2,3,0
+7,M&M,Chocolates,7,0,3,0
+8,Bounty,Chocolates,5,2,3,20
+9,Snickers,Chocolates,5,1,2,50
+10,Smiths,Chips,4,1,2,50
+11,Pringles,Chips,0,1,2,30
+12,Kettle,Chips,2,1,2,60
+13,Thins,Chips,1,2,2,40
+14,Mentos,Candies,5,2,2,0
+15,Sour Patch,Candies,6,1,2,20
+16,Skittles,Candies,5,2,2,30
+17,Mountain Dew,Drinks,7,0,2,50
